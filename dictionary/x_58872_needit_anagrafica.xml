@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element max_length="40" name="x_58872_needit_anagrafica" type="collection">
+        <element label="TELEFONO" max_length="40" name="u_integer_5" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="NOME" max_length="40" name="u_string_1" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="COGNOME" max_length="40" name="u_string_2" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="CITTA" max_length="40" name="u_string_3" type="string"/>
+    </element>
+</database>

@@ -1,3 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" extends="task" label="NeedIt" max_length="40" name="x_58872_needit_needit" sizeclass="0" type="collection"/>
+    <element audit="true" extends="task" label="NeedIt" max_length="40" name="x_58872_needit_needit" sizeclass="5" type="collection">
+        <element label="Requested for" max_length="40" name="requested_for" type="string"/>
+        <element label="Request type" max_length="40" name="request_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Request type" max_length="40" name="u_choice_1" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Legal" sequence="0" value="legal"/>
+                <element inactive_on_update="false" label="Human Resources" sequence="1" value="human resources"/>
+                <element inactive_on_update="false" label="Facilities" sequence="3" value="facilities"/>
+            </choice>
+        </element>
+        <element label="Must have by" max_length="40" name="u_due_date_3" type="due_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Must have by" max_length="40" name="u_glide_date_time_4" type="glide_date_time"/>
+        <element attributes="encode_utf8=false" label="Requested for" max_length="32" name="u_reference_2" reference="sys_user" type="reference"/>
+        <element label="What needed" max_length="40" name="what_needed" type="string"/>
+    </element>
 </database>

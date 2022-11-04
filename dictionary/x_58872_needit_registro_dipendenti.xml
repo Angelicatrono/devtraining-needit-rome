@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element max_length="40" name="x_58872_needit_registro_dipendenti" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="SESSO" max_length="40" name="u_choice_10" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
+                <element inactive_on_update="false" label="D" sequence="0" value="D"/>
+                <element inactive_on_update="false" label="U" sequence="0" value="U"/>
+                <element inactive_on_update="false" label="Choice 2" sequence="1" value="Choice 2"/>
+                <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="RUOLO" max_length="40" name="u_choice_11" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Analista" sequence="0" value="Analista"/>
+                <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
+                <element inactive_on_update="false" label="Impiegato" sequence="0" value="Impiegato"/>
+                <element inactive_on_update="false" label="Manager" sequence="0" value="Manager"/>
+                <element inactive_on_update="false" label="Marketing Manager" sequence="0" value="Marketing Manager"/>
+                <element inactive_on_update="false" label="Operatore IT" sequence="0" value="Operatore IT"/>
+                <element inactive_on_update="false" label="Produzione" sequence="0" value="Produzione"/>
+                <element inactive_on_update="false" label="Sales Manager" sequence="0" value="Sales Manager"/>
+                <element inactive_on_update="false" label="Sviluppatore" sequence="0" value="Sviluppatore"/>
+                <element inactive_on_update="false" label="Choice 2" sequence="1" value="Choice 2"/>
+                <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="INIZIALI" max_length="40" name="u_string_1" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="NOME" max_length="40" name="u_string_2" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="COD DIP" max_length="40" name="u_string_3" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="NUM TELEFONO INTERNO" max_length="40" name="u_string_4" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="COGNOME" max_length="40" name="u_string_5" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="COD UFF" max_length="40" name="u_string_6" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="LIVELLO ISTRUZIONE" max_length="40" name="u_string_9" type="string"/>
+    </element>
+</database>

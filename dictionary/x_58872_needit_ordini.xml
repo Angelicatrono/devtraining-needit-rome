@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element max_length="40" name="x_58872_needit_ordini" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="CODICE PRODOTTO" max_length="40" name="u_string_1" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="TELEFONO" max_length="40" name="u_string_2" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="INDIRIZZO" max_length="40" name="u_string_3" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="CITTA" max_length="40" name="u_string_4" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="COGNOME" max_length="40" name="u_string_5" type="string"/>
+    </element>
+</database>
